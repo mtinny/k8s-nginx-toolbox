@@ -1,7 +1,7 @@
 #!/bin/bash
 
 repo=mtinny/nginx
-tag=${tag:-v0.0.3}
+tag=${tag:-v0.0.4}
 
 image="${repo}:${tag}"
 latest="${repo}:latest"
