@@ -18,7 +18,7 @@ spec:
         app: nginx-toolbox
     spec:
       containers:
-      - image: mtinny/nginx-toolbox:v0.0.1
+      - image: mtinny/nginx
         imagePullPolicy: Always
         name: nginx-toolbox
         resources: {}
